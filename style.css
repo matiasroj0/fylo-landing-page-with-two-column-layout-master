@@ -52,6 +52,7 @@ p, h1, h2, h3, h4, h5, h6 {
 
 body {
     background: url(/images/bg-curve-mobile.svg);
+    background-repeat: no-repeat;
     overflow-x: hidden;
 }
 
@@ -303,7 +304,7 @@ footer {
 .footer-logo {
     width: 60%;
     padding-bottom: 3rem;
-    filter: invert(99%) sepia(77%) saturate(98%) hue-rotate(214deg) brightness(121%) contrast(100%);
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%);
 }
 
 .footer-link {
@@ -390,6 +391,11 @@ button:hover {
 }
 
 @media (min-width:900px) {
+    body {
+        background-image: url(/images/bg-curve-desktop.svg);
+        background-repeat: no-repeat;
+    }
+
     header {
         position: fixed;
         top: 0;
@@ -561,7 +567,7 @@ button:hover {
     .footer-logo {
         width: 9%;
         padding-bottom: 2rem;
-        filter: invert(99%) sepia(77%) saturate(98%) hue-rotate(214deg) brightness(121%) contrast(100%);
+        filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%);
     }
     
     .footer-link {
