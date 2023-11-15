@@ -4,7 +4,7 @@ This is a solution to the [Fylo landing page with two column layout challenge on
 
 ### Links
 
-- Live Site URL: 
+- Live Site URL: https://cool-tiramisu-ef9076.netlify.app/
 
 ### Screenshot
 
